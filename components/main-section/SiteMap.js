@@ -2,7 +2,7 @@ class SiteMap extends HTMLElement {
     constructor() {
         super()
         this.innerHTML = `
-        <div class="map">
+        <nav class="map">
             <div class="map-links">
                 <div class="category">
                     <h4>Docs</h4>
@@ -81,7 +81,7 @@ class SiteMap extends HTMLElement {
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
 
         `
     }
