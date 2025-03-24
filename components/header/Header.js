@@ -11,7 +11,7 @@ class Header extends HTMLElement {
                     </div>
                     <button class="search-button">
                         <img class="search-button-pic" src="../../public/assets/icons/header-search.svg" alt="search">
-                        Search
+                        <span class="search-text">Search</span>
                         <div class="search-btn-shirtcut">⌘ K</div>
                     </button>
                 </div>
@@ -53,7 +53,7 @@ class Header extends HTMLElement {
                         <button class="header-btns"> <img src="../../public/assets/icons/header-twitter.svg" alt="twitter"></button>
                         <button class="header-btns"> <img src="../../public/assets/icons/header-discord.svg" alt="discord"></button>
                     </div>
-                    <div class="menu-dots">...</div>
+                    <button class="menu-dots-btn"><img class="dots-bnt-img" src="../../public/assets/icons/header-menu-dots.svg"> </button>
                 </div>
             </div>
       </header>
