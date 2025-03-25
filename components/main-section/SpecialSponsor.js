@@ -1,3 +1,6 @@
+import {
+    characteristics
+} from "../../data.js";
 class SpecialSponsor extends HTMLElement {
     constructor() {
         super()
@@ -14,18 +17,12 @@ class SpecialSponsor extends HTMLElement {
             </span>
         </section>
         <section class="char-container">
+        ${characteristics.map(char => `
             <div class="char-item">
-                 <h3>Approachable</h3>
-                <p class="char-p">Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation.</p>
+                <h3>${char.title}</h3>
+                <p class="char-p">${char.description}</p>
             </div>
-            <div class="char-item">
-                <h3>Performant</h3>
-                <p class="char-p">Truly reactive, compiler-optimized rendering system that rarely requires manual optimization.</p>
-            </div>
-            <div class="char-item">
-                <h3>Versatile</h3>
-                <p class="char-p">A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.</p>
-            </div>
+        `).join('')}
         </section>
         `
     }
