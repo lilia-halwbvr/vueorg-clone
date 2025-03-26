@@ -40,7 +40,6 @@ class Header extends HTMLElement {
                             <a href="#">Ecosystem</a>
                             <img class="nav-icon" src="../../public/assets/icons/header-nav-arrow.svg" alt="Arrow">
                             <ul class="dropdown-menu">
-                                <li class="menu-items">
                                         <li>RESOURCES</li>
                                         <li><a href="#">Partners</a></li>
                                         <li><a href="#">Developers</a></li>
@@ -49,7 +48,6 @@ class Header extends HTMLElement {
                                         <li><a href="#">Certification</a></li>
                                         <li><a href="#">Jobs</a></li>
                                         <li><a href="#">T-Shirt shop</a></li>
-                                </li>
                                 <li class="menu-items">
                                     <li>OFFICIAL LIBRARIES</li>
                                     <li><a href="#">Vue Router</a></li>
@@ -132,6 +130,9 @@ class Header extends HTMLElement {
                     <button class="header-btns"> <img src="../../public/assets/icons/header-twitter.svg" alt="twitter"></button>
                     <button class="header-btns"> <img src="../../public/assets/icons/header-discord.svg" alt="discord"></button>
                 </div>
+                <button class="menu-dots-btn">
+                    <img src="../../public/assets/icons/header-menu-dots.svg" alt="menu dots">
+                </button>
             </nav>
         </div>
         <div class="popup-menu">

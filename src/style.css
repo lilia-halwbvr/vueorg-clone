@@ -210,6 +210,7 @@ input:checked+.slider:before {
 }
 
 .menu-dots-btn {
+  width: 20px;
   display: none;
   font-size: 24px;
   cursor: pointer;
@@ -748,10 +749,15 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1278px) {
+@media (max-width: 1100px) {
   .menu-dots-btn {
     display: flex;
     padding: 0 12px;
+  }
+
+  .buttons,
+  .switch {
+    display: none;
   }
 }
 
