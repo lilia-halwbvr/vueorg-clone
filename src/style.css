@@ -16,7 +16,6 @@ body.no-scroll {
   overflow: hidden;
 }
 
-
 button {
   cursor: pointer;
 }
@@ -81,7 +80,7 @@ button {
   opacity: 1;
 }
 
-.navigation {
+.header-navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -712,7 +711,7 @@ footer a:hover {
     flex-direction: row;
   }
 
-  .navigation,
+  .header-navigation,
   .search-button {
     display: none;
   }

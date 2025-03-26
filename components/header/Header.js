@@ -16,7 +16,7 @@ class Header extends HTMLElement {
                 </button>
             </div>
             <button class="menu-toggle-button"><img src="../../public/assets/icons/menu-btn.svg" alt="menu"></button>
-            <div class="navigation">
+            <nav class="header-navigation">
                 <nav>
                     <ul class="nav-menu">
                         <li class="dropdown">
@@ -40,40 +40,40 @@ class Header extends HTMLElement {
                             <a href="#">Ecosystem</a>
                             <img class="nav-icon" src="../../public/assets/icons/header-nav-arrow.svg" alt="Arrow">
                             <ul class="dropdown-menu">
-                            <div class="menu-items">
-                                    <li>RESOURCES</li>
-                                    <li><a href="#">Partners</a></li>
-                                    <li><a href="#">Developers</a></li>
-                                    <li><a href="#">Themes</a></li>
-                                    <li><a href="#">UI components</a></li>
-                                    <li><a href="#">Certification</a></li>
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">T-Shirt shop</a></li>
-                                </div>
-                                <div class="menu-items">
+                                <li class="menu-items">
+                                        <li>RESOURCES</li>
+                                        <li><a href="#">Partners</a></li>
+                                        <li><a href="#">Developers</a></li>
+                                        <li><a href="#">Themes</a></li>
+                                        <li><a href="#">UI components</a></li>
+                                        <li><a href="#">Certification</a></li>
+                                        <li><a href="#">Jobs</a></li>
+                                        <li><a href="#">T-Shirt shop</a></li>
+                                </li>
+                                <li class="menu-items">
                                     <li>OFFICIAL LIBRARIES</li>
                                     <li><a href="#">Vue Router</a></li>
                                     <li><a href="#">Pinia</a></li>
                                     <li><a href="#">Tooling Guide</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>VIDEO COURSES</li>
                                     <li><a href="#">Vue Mastery</a></li>
                                     <li><a href="#">Vue School</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>HELP</li>
                                     <li><a href="#">Discord chat</a></li>
                                     <li><a href="#">GitHub discussions</a></li>
                                     <li><a href="#">DEV community</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>NEWS</li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Twitter</a></li>
                                     <li><a href="#">Events</a></li>
                                     <li><a href="#">Newsletters</a></li>
-                                </div>
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -95,7 +95,7 @@ class Header extends HTMLElement {
                         </li>
                         <li class="dropdown">
                             <a href="#">Experts</a>
-                            <div class="new-p">NEW</div>
+                            <span class="new-p">NEW</span>
                             <img class="nav-icon" src="../../public/assets/icons/header-nav-arrow.svg" alt="Arrow">
                             <ul class="dropdown-menu">
                                 <li><a href="#">Partners</a></li>
@@ -132,7 +132,7 @@ class Header extends HTMLElement {
                     <button class="header-btns"> <img src="../../public/assets/icons/header-twitter.svg" alt="twitter"></button>
                     <button class="header-btns"> <img src="../../public/assets/icons/header-discord.svg" alt="discord"></button>
                 </div>
-            </div>
+            </nav>
         </div>
         <div class="popup-menu">
             <div class="popup-content">
@@ -164,7 +164,7 @@ class Header extends HTMLElement {
                             <button class="popup-open-menu">&times;</button>
                         </div>
                             <ul class="popup-dropdown-menu">
-                            <div class="menu-items">
+                            <li class="menu-items">
                                     <li>RESOURCES</li>
                                     <li><a href="#">Partners</a></li>
                                     <li><a href="#">Developers</a></li>
@@ -173,31 +173,31 @@ class Header extends HTMLElement {
                                     <li><a href="#">Certification</a></li>
                                     <li><a href="#">Jobs</a></li>
                                     <li><a href="#">T-Shirt shop</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>OFFICIAL LIBRARIES</li>
                                     <li><a href="#">Vue Router</a></li>
                                     <li><a href="#">Pinia</a></li>
                                     <li><a href="#">Tooling Guide</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>VIDEO COURSES</li>
                                     <li><a href="#">Vue Mastery</a></li>
                                     <li><a href="#">Vue School</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>HELP</li>
                                     <li><a href="#">Discord chat</a></li>
                                     <li><a href="#">GitHub discussions</a></li>
                                     <li><a href="#">DEV community</a></li>
-                                </div>
-                                <div class="menu-items">
+                                </li>
+                                <li class="menu-items">
                                     <li>NEWS</li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Twitter</a></li>
                                     <li><a href="#">Events</a></li>
                                     <li><a href="#">Newsletters</a></li>
-                                </div>
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown">
