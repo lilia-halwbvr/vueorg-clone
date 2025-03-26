@@ -3,16 +3,16 @@
             <div class="header">
                 <div class="header-left">
                     <div class="header-logo">
-                        <img src="../../public/assets/icons/logo-vue.svg" alt="logo">
+                        <img src="./public/assets/icons/logo-vue.svg" alt="logo">
                         <span>Vue.js</span>
                     </div>
                     <button class="search-button">
-                        <img class="search-button-pic" src="../../public/assets/icons/header-search.svg" alt="search">
+                        <img class="search-button-pic" src="./public/assets/icons/header-search.svg" alt="search">
                         <span class="search-text">Search</span>
                         <div class="search-btn-shirtcut">⌘ K</div>
                     </button>
                 </div>
-                <button class="menu-toggle-button"><img src="../../public/assets/icons/menu-btn.svg" alt="menu"></button>
+                <button class="menu-toggle-button"><img src="./public/assets/icons/menu-btn.svg" alt="menu"></button>
                 <div class="navigation">
                     <nav>
                         <ul class="nav-menu">

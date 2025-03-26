@@ -1,4 +1,3 @@
-import './style.css'
 import "../components/header/Header.js";
 import "../components/main-section/HeroSection.js";
 import "../components/main-section/SpecialSponsor.js";
