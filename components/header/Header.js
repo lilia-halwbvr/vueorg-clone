@@ -116,9 +116,9 @@ class Header extends HTMLElement {
                             <img src="../../public/assets/icons/header-github.svg" alt="github">
                         </li>
                         <li>
-                        <a href="#">English</a>
-                        <img src="../../public/assets/icons/header-github.svg" alt="github">
-                    </li>
+                            <a href="#">English</a>
+                            <img src="../../public/assets/icons/header-github.svg" alt="github">
+                        </li>
                         <li>Help us translate!</li>
                     </ul>
                 </div>
@@ -132,60 +132,167 @@ class Header extends HTMLElement {
                     <button class="header-btns"> <img src="../../public/assets/icons/header-twitter.svg" alt="twitter"></button>
                     <button class="header-btns"> <img src="../../public/assets/icons/header-discord.svg" alt="discord"></button>
                 </div>
-                
+            </div>
+        </div>
+        <div class="popup-menu">
+            <div class="popup-content">
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="dropdown">
+                        <div class="dropdown-header">
+                            <a href="#" class="list-border">Docs</a>
+                            <button class="popup-open-menu">&times;</button>
+                        </div>    
+                            <ul class="popup-dropdown-menu">
+                                <li><a href="#">Guide</a></li>
+                                <li><a href="#">Tutorial</a></li>
+                                <li><a href="#">Examples</a></li>
+                                <li><a href="#">Quick start</a></li>
+                                <li><a href="#">Glossary</a></li>
+                                <li><a href="#">Error reference</a></li>
+                                <li><a href="#">Vue 2 docs</a></li>
+                                <li><a href="#">Migration from Vue 2</a></li>
+                            </ul>
+                        </li>
 
-                <div class="dropdown">
-                    <button class="menu-dots-btn">
-                        <img class="dots-btn-img" src="../../public/assets/icons/header-menu-dots.svg" alt="menu">
-                    </button>
+                        <li><div class="dropdown-header"><a href="#" class="list-border">API</a></div?</li>
+                        <li><div class="dropdown-header"><a href="#" class="list-border">Playground</a></div></li>
 
-                    <ul class="dropdown-menu menu-dots-dropdown">
-                        <li><a href="#">Appearance</a></li>
+                        <li class="dropdown">
+                        <div class="dropdown-header">
+                            <a href="#" class="list-border">Ecosystem</a>
+                            <button class="popup-open-menu">&times;</button>
+                        </div>
+                            <ul class="popup-dropdown-menu">
+                            <div class="menu-items">
+                                    <li>RESOURCES</li>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Themes</a></li>
+                                    <li><a href="#">UI components</a></li>
+                                    <li><a href="#">Certification</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">T-Shirt shop</a></li>
+                                </div>
+                                <div class="menu-items">
+                                    <li>OFFICIAL LIBRARIES</li>
+                                    <li><a href="#">Vue Router</a></li>
+                                    <li><a href="#">Pinia</a></li>
+                                    <li><a href="#">Tooling Guide</a></li>
+                                </div>
+                                <div class="menu-items">
+                                    <li>VIDEO COURSES</li>
+                                    <li><a href="#">Vue Mastery</a></li>
+                                    <li><a href="#">Vue School</a></li>
+                                </div>
+                                <div class="menu-items">
+                                    <li>HELP</li>
+                                    <li><a href="#">Discord chat</a></li>
+                                    <li><a href="#">GitHub discussions</a></li>
+                                    <li><a href="#">DEV community</a></li>
+                                </div>
+                                <div class="menu-items">
+                                    <li>NEWS</li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Newsletters</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                        <div class="dropdown-header">
+                            <a href="#" class="list-border">About</a>
+                            <button class="popup-open-menu">&times;</button>
+                        </div>
+                            <ul class="popup-dropdown-menu">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Releases</a></li>
+                                <li><a href="#">Community guide</a></li>
+                                <li><a href="#">Code of conduct</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">The documentary</a></li>
+                            </ul>
+                        </li>
+
+                        <li> <div class="dropdown-header">
+                            <a href="#" class="list-border">Sponsor</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                        <div class="dropdown-header">
+                            <a href="#" class="list-border">Experts</a>
+                            <button class="popup-open-menu">&times;</button>
+                        </div>
+                            <ul class="popup-dropdown-menu">
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">Developers</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </div>
+                </nav>
+
+
+            <div class="popup-bg">
+                <span>Translations</span>
+                <ul class="translation-list">
+                    <li>
+                        <a href="#">Italiano</a>
+                        <img src="../../public/assets/icons/header-github.svg" alt="github">
+                    </li>
+                    <li>
+                        <a href="#">English</a>
+                        <img src="../../public/assets/icons/header-github.svg" alt="github">
+                    </li>
+                    
+                </ul>
+                <span>Help us translate!</span>
+            </div>
+            <div class="slider-block popup-bg">
+                <span>Appearance</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="buttons">
+                <button class="header-btns">
+                    <img src="../../public/assets/icons/header-github.svg" alt="github">
+                </button>
+                <button class="header-btns">
+                    <img src="../../public/assets/icons/header-twitter.svg" alt="twitter">
+                </button>
+                <button class="header-btns">
+                    <img src="../../public/assets/icons/header-discord.svg" alt="discord">
+                </button>
+            </div>
+
             </div>
         </div>
     </header>
     
         `
         document.addEventListener('DOMContentLoaded', function () {
-            const menuButton = document.querySelector('.menu-dots-btn');
-            const dropdownMenu = document.querySelector('.menu-dots-dropdown');
-            const slider = document.querySelector('.switch')
-            const icons = document.querySelector('.buttons')
-            const navigationMenu = document.querySelector('.navigation')
+            const burgerButton = document.querySelector('.menu-toggle-button')
+            const popupMenu = document.querySelector('.popup-menu')
 
-            const moveElementsToDropdown = () => {
-                if (window.innerWidth <= 1278) {
-                    if (!dropdownMenu.contains(slider)) {
-                        dropdownMenu.appendChild(slider);
-                    }
-                    if (!dropdownMenu.contains(icons)) {
-                        dropdownMenu.appendChild(icons);
-                    }
-                    slider.style.display = 'block';
-                    icons.style.display = 'block';
+            burgerButton.addEventListener('click', () => {
+                popupMenu.classList.toggle('open')
+
+                if (popupMenu.classList.contains('open')) {
+                    document.body.classList.add('no-scroll');
+                } else {
+                    document.body.classList.remove('no-scroll');
                 }
-            }
-            // почему то не работает. то есть когда уменьшаешь экран автоматически кнопки в намальное состояние не вернутся (на ширину больше 1278)
-            window.addEventListener('resize', moveElementsToDropdown);
-            moveElementsToDropdown()
-
-            //show & hide dropdown menu
-            menuButton.addEventListener('click', function () {
-                dropdownMenu.classList.toggle('open');
-            });
-
-            document.addEventListener('click', function (event) {
-                if (!menuButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
-                    dropdownMenu.classList.remove('open');
-                }
-            });
-        });
-
+            })
+            document.querySelectorAll('.dropdown').forEach(dropdown => {
+                dropdown.addEventListener('click', (event) => {
+                    const menu = dropdown.querySelector('.popup-dropdown-menu')
+                    menu.classList.toggle('active')
+                })
+            })
+        })
     }
-
-
-
 }
 customElements.define("header-section", Header)
