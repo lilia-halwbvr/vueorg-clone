@@ -10,9 +10,9 @@ class Header extends HTMLElement {
                         <span>Vue.js</span>
                     </div>
                     <button class="search-button">
-                        <img class="search-button-pic" src="./public/assets/icons/header-search.svg" alt="search">
+                        <img src="./public/assets/icons/header-search.svg" alt="search">
                         <span class="search-text">Search</span>
-                        <div class="search-btn-shirtcut">⌘ K</div>
+                        <div class="search-btn-shortcut">⌘ K</div>
                     </button>
                 </div>
                 <button class="menu-toggle-button"><img src="./public/assets/icons/menu-btn.svg" alt="menu"></button>
@@ -59,6 +59,24 @@ class Header extends HTMLElement {
       </header>
       
         `
+        document.addEventListener("DOMContentLoaded", () => {
+            const themeToggle = document.querySelector(".switch input");
+            if (localStorage.getItem("theme") === "dark" || (window.matchMedia("(prefers-color-scheme: dark)").matches)) { //return mediaQueryList
+                document.documentElement.classList.add("dark-theme")
+                themeToggle.checked = true
+            } else {
+                themeToggle.checked = false
+            }
+
+            themeToggle.addEventListener("change", () => {
+                if (themeToggle.checked) {
+                    document.documentElement.classList.add("dark-theme")
+                } else {
+                    document.documentElement.classList.remove("dark-theme")
+                }
+            })
+        })
+
     }
 }
 customElements.define("header-section", Header)
